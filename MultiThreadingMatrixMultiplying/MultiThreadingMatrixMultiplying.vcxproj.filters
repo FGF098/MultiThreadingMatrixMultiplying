@@ -24,11 +24,29 @@
     <Filter Include="Matrix">
       <UniqueIdentifier>{5c879a8c-67cd-4b87-8d13-5efb29b4f248}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Int Matrix">
-      <UniqueIdentifier>{43e76e54-a44f-4cb0-a62c-dd843e9d9ae9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Matrix Part">
       <UniqueIdentifier>{5e8e8ae0-6ebd-48db-b270-54dde5c9e26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Int">
+      <UniqueIdentifier>{43e76e54-a44f-4cb0-a62c-dd843e9d9ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix Minor">
+      <UniqueIdentifier>{3e349490-9050-47a8-bbb4-f7d5ac313505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Int Randomizer">
+      <UniqueIdentifier>{e754f794-6285-4a8c-bce2-99fccaa1e346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{5f5abe9c-8817-42dd-b220-9003c0337892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Coordinates">
+      <UniqueIdentifier>{bf6bf14a-1ac3-4710-b8ab-07d00c06340e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Position">
+      <UniqueIdentifier>{a0e19df8-0d84-45a9-8186-466c84e25daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Size">
+      <UniqueIdentifier>{5fc1c8fe-e1d5-4d63-b40f-965f2117e391}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -49,5 +67,52 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="matrix_part.cpp">
+      <Filter>Matrix Part</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_minor.cpp">
+      <Filter>Matrix Minor</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_int.cpp">
+      <Filter>Matrix Int</Filter>
+    </ClCompile>
+    <ClCompile Include="int_randomizer.cpp">
+      <Filter>Int Randomizer</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinates.cpp">
+      <Filter>Other\Coordinates</Filter>
+    </ClCompile>
+    <ClCompile Include="size.cpp">
+      <Filter>Other\Size</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matrix_part.h">
+      <Filter>Matrix Part</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_int.h">
+      <Filter>Matrix Int</Filter>
+    </ClInclude>
+    <ClInclude Include="position.h">
+      <Filter>Other\Position</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_minor.h">
+      <Filter>Matrix Minor</Filter>
+    </ClInclude>
+    <ClInclude Include="int_randomizer.h">
+      <Filter>Int Randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="coordinates.h">
+      <Filter>Other\Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="size.h">
+      <Filter>Other\Size</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
